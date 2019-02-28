@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>011-Student Register Form</title>
+ 	<script src="f.js"></script> 
+        <style>
+          h1{
+              text-align:center;
+              font-size:2.0em;
+              text-decoration:underline;
+              color:slateblue;
+           }
+          .capital{
+                  font-weight:bold;
+                  }
+          td{
+                padding-left:5px;
+           }
+           table{
+                   color:white;
+               }
+        </style>
+    </head>    
+    <body>
+        <form>
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <table style="background-color:slateblue;" align="center" cellpadding="10">
+            <tr>
+                <td class="capital">FIRST NAME</td>
+                <td><input type="text" name="firstname" id="firstname"> (max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td class="capital">LAST NAME</td>
+                <td><input type="text" name="lastname" id="lastname"> (max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td>
+                    <select name="Birthday_day" id="Birthday_Day">
+                    <option value="-1">Day:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option> 
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    </select>        
+                    <select name="Birthday_month" id="birthday_month">
+                        <option value="-1">Month:</option>
+                        <option value="january">Jan</option>
+                        <option value="febraury">Feb</option>
+                        <option value="march">Mar</option>
+                        <option value="april">Apr</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="August">Aug</option>
+                        <option value="september">Sep</option>
+                        <option value="octobar">Oct</option>
+                        <option value="november">Nov</option>
+                        <option value="December">Dec</option>
+                    </select>
+                    <select name="Birthday_year" id="Birthday_year">
+                        <option value="-1">Year:</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="capital">EMAIL ID</td>
+                <td><input type="text" name="emailid" id="mail"></td>
+            </tr>
+            <tr>
+                <td class="capital">MOBILE NUMBER</td>
+                <td><input type="text" name="emailid" id="mobile">(10 digit number)</td>
+            </tr>
+            <tr>    
+            <td class="capital">GENDER</td>
+            <td>
+                Male <input type="radio" name="Gender" value="Male" />
+                Female <input type="radio" name="Gender" value="Female" />
+            </td>
+        </tr>
+         <tr>
+             <td class="capital">ADDRESS</td>
+             <td><textarea name="adress"  rows="4"cols="28"></textarea>
+             </td>
+            </tr> 
+            <tr>
+                <td class="capital">CITY</td>
+                <td><input type="text" name="city" id="city">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td class="capital">PINCODE</td>
+                <td><input type="text" name="pincode" id="pincode">(6 digit number)</td>
+            </tr>
+            <tr>
+                <td class="capital">STATE</td>
+                <td><input type="text" name="state" id="state">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td class="capital">COUNTRY</td>
+                <td><input type="text" name="country" placeholder="India"  ></td>
+            </tr>
+            <tr>
+                <td class="capital">HOBBIES</td>
+                <td>Drawing<input type="checkbox" name="hobbies">Singing<input type="checkbox" name="hobbies">Dancing<input type="checkbox" name="hobbies">
+                Sketching<input type="checkbox" name="hobbies"><br>Others&nbsp;<input name="hobbies"></td>
+            </tr>             
+            <tr>
+             <td class="capital">QUALIFICATION</td>
+             <td>
+                <table cellspacing="5px">
+                 <tr align="center">
+                     <th>S1.No</th>
+                     <th>Examination</th>
+                     <th>Board</th>
+                     <th>Percentage</th>
+                     <th>Year of passing</th>
+                 </tr>
+            </tr>
+            <tr>
+                   <td>1</td>
+                   <td>Class X</td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+              </tr>
+            <tr>
+                   <td>2</td>
+                   <td>Class XII</td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+              </tr>
+               <tr>
+                   <td>3</td>
+                   <td>Graduation</td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+              </tr>
+               <tr>
+                   <td>4</td>
+                   <td>Masters</td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+                   <td><input type="text"></td>
+              </tr>
+            </table>
+           </td>
+           </tr>
+      
+           <tr>
+             <td class="capital">COURSES<br>APPLIED FOR</td>
+             <td>BCA<input type="radio" name="course">B.Com<input type="radio" name="course">B.Sc<input type="radio" name="course">B.A<input type="radio" name="course"></td>
+          </tr>
+	  <tr>
+             <td colspan="2" align="center"><button type="button" id="submitButton" onclick="myfunction">Submit</button><button type="reset" id="resetButton">Reset</button></td>
+          </tr>
+        </table>
+        </form>
+       <script src="f.js"></script>
+    </body>
+</html>
