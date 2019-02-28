@@ -1,0 +1,54 @@
+h1{
+    background-color : black;
+    color :white;
+    padding : 50px;
+    text-align: center;
+}
+#navlist li{
+    display:inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+.navlinks{
+    text-decoration: none;
+}
+.announce{
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+    width:180px;
+    border-right: 1.2px solid black;
+}
+.about{
+    float:left;
+    padding-left: 20px;
+    width:820px;
+    border-right: 1.2px solid black;
+}
+.news{
+    float:right;
+    padding-right: 140px;
+    width:100px;
+}
+#section{
+    border-top:1px solid black;
+    padding-bottom: 50px;
+}
+.footer{
+    background-color : black;
+    color :white;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 500px;
+    float: none;
+    
+}
+.link{
+    list-style-type: none;
+}
+
+
+
+
+
+
